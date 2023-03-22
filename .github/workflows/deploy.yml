@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: copy file via ssh password
-        uses: appleboy/scp-action@v0.1
+        uses: appleboy/scp-action@0.1
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
